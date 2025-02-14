@@ -1,0 +1,101 @@
+console.log("Hello World"); # Printar Hello World :D # Används även på webben?
+.js för javascript :D 
+
+exempel
+
+function serie() {
+    start = Math.floor(Math.randon()*5);
+    steg = Math.floor(Math.randon()*5);
+    console.log("Serien startar på", start, "och steget är", steg);
+
+osv
+}
+
+class Husdjur {
+    constructor(djurnamn) {
+        this.namn = djurnamn;
+        this.glad = false;
+        this.hungrig = 4;
+    }
+
+    visa() {
+        console.log(this.namn)
+        if (this.glad) {
+            console.log("är glad!");
+        }
+        else {
+            console.log("är ledsen");
+        }
+        if (this.hungrig > 0) {
+            console.log("och hungrig...");
+        }
+    }
+}
+
+h1 = new Husdjur("Totoro")
+h1.visa()
+
+Skillnader:
+- Semikolon efter varje sats
+- Parantes kring vilkor
+- Inga kolon efter if/while/for/def
+- {} istället för indentering (ofta görs dock indentering för läsbarhet)
+
+
+Klasser
+- class Klassnamn {
+- self -> this 
+- __init__ -> constructor
+- nya objekt skapas med new Klassnamn
+
+w3schools har bra dokumentation :D 
+
+JS på webben 
+<script type = "text/javascript">
+    kod goes here
+</script>
+
+<html>
+    <head>
+        ...
+    </head>
+    <body>
+        <script type = "text/javascript">
+            document.write("Hej allihopa!);
+        </script>
+    </body>
+</html>
+
+Nya taggar
+<form> ger ett "formulär"
+<input> get en inmatningsruta
+
+exempel
+
+<form>
+    <script type...>
+        function hälsning() {
+            x = document.getElementById("namn");
+            document.write("Hej " + x.value)
+        }
+    </script>
+    
+    <p> Jag heter <input type = "text" name = "namn" size = "1"> # type -> ja du; name -> variabel namn; size -> längd på rutan
+    <input type = "button" value = "Tryck Här" onclick = hälsning()>
+</form>
+
+Man skapar ofta js program som skapar html kod :D 
+exempel 
+
+document.write("<h1>" + rubrik + "</h1>")
+
+exempel 
+<form>
+    <input type = "button
+    value = "Horoskop"
+    name = "knappen"
+    onclick = hittaPå(this.form)>
+    <input type ....
+</form>
+
+Cookies!
