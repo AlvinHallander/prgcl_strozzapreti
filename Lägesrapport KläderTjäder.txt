@@ -1,0 +1,9 @@
+﻿Vi har en skiss: https://drive.google.com/file/d/17uJ3bMe5v5UUekDiHx_ptW2MLGPHVKXH/view?usp=sharing
+
+
+I skissen har vi funderingar som bör tas upp med resten av gruppen. Dessa frågor är:
+* Ska Alvins header gömma sig när man skrollar ner?
+* Ska vi ha en google-maps länk till gallerian? I sånt fall vart? Gråttan?
+
+
+Vi är också osäkra på en grej i uppgiften. Vi funderar på om våra produkter ska finnas att browsa igenom på startsidan, eller om vi får skapa en sekundär sida för produkterna.
