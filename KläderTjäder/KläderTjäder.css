@@ -1,0 +1,25 @@
+
+h1
+{
+    font-family: monospace;
+    font-size: 60;
+    color: Blue;
+}
+
+table-secondary
+{
+    margin-top: 0px;
+}
+
+.topOfPage
+{
+    background-image: url("Images/backgroundStore.jpg");
+    height: 600px;
+    background-size: 100vw 63vh;
+}
+
+img
+{
+    margin-top: 4%;
+    border: 5px solid black
+}

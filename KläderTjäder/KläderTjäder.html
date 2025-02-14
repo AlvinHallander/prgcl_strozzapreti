@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html><head>
+    
+    <link rel="stylesheet" type="text/css" href="KläderTjäder.css">
+
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <title>Strozzapreti Mall</title>
+
+
+    
+</head><body>
+
+    <div class="header">
+        <script type="text/javascript">
+            function hover_on_header(button) {
+                document.getElementById(button).data = "svg_elements/"+ document.getElementById(button).id + "-down.svg"
+            }
+            function stop_hover_on_header(button) {
+                document.getElementById(button).data = "svg_elements/"+ document.getElementById(button).id + ".svg"
+            }
+        </script>
+        <table class="table-primary">
+            <tr>
+                <td width="70%"><object id="home-button" data="svg_elements/home-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                <td width="5%"><object id="map-button" data="svg_elements/map-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                <td width="5%"><object id="stores-button" data="svg_elements/stores-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                <td width="5%"><object id="about-us-button" data="svg_elements/about-us-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                <td width="5%"><object id="contact-button" data="svg_elements/contact-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+            </tr>
+        </table>
+    </div>
+    <!-- Här lägger ni in er egna kod! -->
+    <div class="topOfPage">
+        <table class="table-secondary" width="80%" align="center">
+            <tr> <!-- Vi behöver vara noga med att proportionerna av bilderna till höger och vänster är lika -->
+				<th><img src="Images/DoomsdayApple.jpg" alt="Tjäderns tjohoppsan" width="320px" height="320px"></th>
+				<th><img src="Images/smr.png" alt="Tjäderns tjärnkraft" width="68%" height="68%"> </th>
+				<th><img src="Images/mjölk.png" alt="Tjäderns mjölk" width="320px" height="320px"></th>
+            </tr>
+        </table>
+    </div>
+    <p>TEST</p>
+
+
+
+</body></html>
