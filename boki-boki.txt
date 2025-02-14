@@ -1,0 +1,49 @@
+Lägesrapport 14/2-2025
+
+namn på butik: Boki Boki
+bakgrundsfärg: pastell/beige
+
+H1
+Boki Boki
+/H1
+
+p
+Butiksbeskrivning
+/p
+
+Bild på en bokhylla
+
+H2
+Kampanjer
+/H2
+
+Bild på kampanjerna. Skrolla mellan bilder <->
+
+H2
+Produkter
+/H2
+
+p
+Produkterna
+/p
+
+H2
+Öppettider
+/H2
+
+p
+Måndag-Fredag 9:00 - 20:00
+Lördag-Söndag 10:00 - 19:00
+/p
+
+H2
+Kontakt
+/H2
+
+p
+Boki Boki
+Box 2100, 103 13 Stockholm
+Besöksadress: Lindhagensgatan 126, 112 51 Stockholm???
+Telefon: 070-123 45 66
+/p
+
