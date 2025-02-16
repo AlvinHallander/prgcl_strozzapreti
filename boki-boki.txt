@@ -4,7 +4,7 @@ namn på butik: Boki Boki
 bakgrundsfärg: pastell/beige
 
 <H1>
-Boki Boki
+Boki Boki bokhandel
 </H1>
 
 <p>
@@ -12,12 +12,15 @@ Butiksbeskrivning
 </p>
 
 Bild på en bokhylla
+<img scr= >
 
 <H2>
-Kampanjer
+Kampanjer just nu!
 </H2>
 
-Bild på kampanjerna. Skrolla mellan bilder <->
+Bild på kampanjerna.
+<img scr=https://s1.adlibris.com/images/69679158/vaninnorna-pa-nordiska-kompaniet.jpg >
+(Scrolla mellan bilder <->)
 
 <H2>
 Produkter
@@ -47,7 +50,8 @@ Besöksadress: Lindhagensgatan 126, 112 51 Stockholm???
 Telefon: 070-123 45 66
 </p>
 
-
+<p> Klicka
+    <a href= "https://www">här</a> för att komma tillbaka till huvudsidan.</p>
 
 
 
