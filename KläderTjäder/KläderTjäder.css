@@ -11,15 +11,41 @@ table-secondary
     margin-top: 0px;
 }
 
+.table-tertiary
+{
+    margin-right: 200px;
+}
+
 .topOfPage
 {
     background-image: url("Images/backgroundStore.jpg");
     height: 600px;
-    background-size: 100vw 63vh;
+    background-size: 100vw 100vh;
+}
+
+p
+{
+    font-size: 25px;
+    font-family: Calibri;
 }
 
 img
 {
-    margin-top: 4%;
-    border: 5px solid black
+    margin-top: 65px;
+}
+
+.rightAligned
+{
+    margin-right: 75px;
+}
+
+.footer
+{
+    background-color: #828282; 
+    color: #363636;
+}
+
+.pFoot
+{
+    font-size: 20px;
 }
