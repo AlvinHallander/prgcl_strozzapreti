@@ -1,51 +1,14 @@
-
-h1
-{
-    font-family: monospace;
-    font-size: 60;
-    color: Blue;
+.header {
+    background: #f0ce52;
+    padding: 0%;
+    position: sticky;
+    top: 0;
 }
 
-table-secondary
-{
+body {
     margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
-.table-tertiary
-{
-    margin-right: 200px;
-}
-
-.topOfPage
-{
-    background-image: url("Images/backgroundStore.jpg");
-    height: 600px;
-    background-size: 100vw 100vh;
-}
-
-p
-{
-    font-size: 25px;
-    font-family: Calibri;
-}
-
-img
-{
-    margin-top: 65px;
-}
-
-.rightAligned
-{
-    margin-right: 75px;
-}
-
-.footer
-{
-    background-color: #828282; 
-    color: #363636;
-}
-
-.pFoot
-{
-    font-size: 20px;
-}
