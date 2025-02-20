@@ -1,4 +1,14 @@
-﻿Vi har en skiss: https://drive.google.com/file/d/17uJ3bMe5v5UUekDiHx_ptW2MLGPHVKXH/view?usp=sharing
+Övning 2: 20/2 - 2025
+Våran sida är så gott som klar. Felicia håller på med js-kod som ska slumpa fram ett rekommenderat klädesplagg när sidan laddas om. Det är det vi väntar på, sedan ska vi väl hjälpa Alvin samanställa grejen om det behövs. 
+
+Funderingarna från förra veckan:
+* Alvins header ska inte gömma sig när man skrollar
+* Vi har en google-maps widget som har en pin i gråttan. 
+* Vi skapar bara en sida för vår del, inte fler för bara KläderTjäder
+
+
+Övning 1: 14/2 - 2025
+Vi har en skiss: https://drive.google.com/file/d/17uJ3bMe5v5UUekDiHx_ptW2MLGPHVKXH/view?usp=sharing
 
 
 I skissen har vi funderingar som bör tas upp med resten av gruppen. Dessa frågor är:
