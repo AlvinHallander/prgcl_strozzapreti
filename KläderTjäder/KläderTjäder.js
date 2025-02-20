@@ -10,7 +10,7 @@ function slumpaPlagg() {
 // Skriver ut vilket plagg som rekommenderas
 function visaRekommenderatPlagg() {
     const plagg = slumpaPlagg();
-    document.write(`Tjädern rekommenderar: ${plagg}`);
+    document.write('Tjädern rekommenderar: ${plagg}');
 }
 
 // Kör funktionen när sidan laddats
