@@ -1,3 +1,8 @@
+Lägesrapport 20/2-2025
+Har mycket kod klart, men vill göra det snyggare.
+Behöver rätta till positioneringar och vill lägga till bakgrundsfärger.
+
+
 Lägesrapport 14/2-2025
 
 namn på butik: Boki Boki
