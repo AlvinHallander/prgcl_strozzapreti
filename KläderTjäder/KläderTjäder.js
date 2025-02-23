@@ -1,5 +1,5 @@
 //Lista över klädesplagg som kan rekommenderas
-const plagglista = ["Scarf", "Jeans", "Skjorta","Cowboyboots","Kjol"];
+const plagglista = ["Images/scarf.jpg", "Images/jeans.jpg", "Images/cowboyBoots.jpg","Images/skirt.jpg"];
 
 // Slumpa ett plagg 
 function slumpaPlagg() {
@@ -10,7 +10,12 @@ function slumpaPlagg() {
 // Skriver ut vilket plagg som rekommenderas
 function visaRekommenderatPlagg() {
     const plagg = slumpaPlagg();
-    document.write('Tjädern rekommenderar: ${plagg}');
+    htmlkod = "";
+    htmlkod += "<tr>";
+    htmlkod += "<th><h2>Tjädern rekommenderar detta plagg just för dig:</h2></th>";
+    htmlkod += "<td><img src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></td>";
+    htmlkod += "</tr>";
+    document.write(htmlkod);
 }
 
 // Kör funktionen när sidan laddats
