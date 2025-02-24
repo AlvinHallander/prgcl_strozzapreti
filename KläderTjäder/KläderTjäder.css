@@ -1,55 +1,52 @@
-
-h1
-{
-    font-family: monospace;
-    font-size: 60;
-    color: Blue;
-}
-
+/* Class to separate tables from each other */
 .table-secondary
 {
-    margin-top: 0px;
-}
-
-.table-tertiary
-{
+    /* Pushes the table contents 200 pixels down */
     margin-right: 200px;
 }
 
+/* Class to style the top of the page */
 .topOfPage
 {
+    /* Sets the background to the image */
     background-image: url("Images/backgroundStore.jpg");
+    /* Sets the height of the div to 600 pixels */
     height: 600px;
+    /* Sets the size of the background image to 100% of the viewport width and height */
     background-size: 100vw 100vh;
 }
 
+/* styles all paragraphs */
 p
 {
     font-size: 25px;
     font-family: Calibri;
 }
 
+/* Styles all images */
 img
 {
     margin-top: 65px;
 }
 
-.rightAligned
-{
-    margin-right: 0px;
-}
-
+/* Class to align things to the left */
 .leftAligned
 {
+    /* Moves items 75 pixels towards the right */
     margin-left: 75px;
 }
 
+/* Class to set colour of footer division */
 .footer
 {
+    /* Sets background colour */
     background-color: #828282; 
+    /* Sets text colour */
     color: #363636;
 }
 
+/* Class to separate paragraphs in footer with other paragraphs */
+/* It makes the text bigger */
 .pFoot
 {
     font-size: 20px;
