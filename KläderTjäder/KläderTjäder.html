@@ -22,7 +22,7 @@
                 document.getElementById(button).data = "svg_elements/"+ document.getElementById(button).id + ".svg"
             }
         </script>
-        <table class="table-primary">
+        <table>
             <tr>
                 <td width="70%"><object id="home-button" data="svg_elements/home-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
                 <td width="5%"><object id="map-button" data="svg_elements/map-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
@@ -36,7 +36,7 @@
     <!-- Creates a div, a part of the page, that has specific attributes in css-file -->
     <div class="topOfPage">
         <!-- Creates a table that is centered at the page and coveres 80% of the page's width -->
-        <table class="table-secondary" width="80%" align="center">
+        <table width="80%" align="center">
             <tr> <!-- Adds three columns to the table that all holds one image each. The middle image is slightly larger than the rest -->
 				<th><img src="Images/CLäderHoodie.png" alt="Tjäderns tjohoppsan" width="320px" height="320px"></th>
 				<th><img src="Images/logo.png" alt="Klädertjäder logga" width="450px" height="450px"> </th>
@@ -46,12 +46,12 @@
     <!-- Ends the topOfPage object -->
     </div>
     <!-- Creates another table, this one covering 90% of page width. All information about classes can be found in KläderTjäder.css -->
-    <table class="table-tertiary" width="90%" align="center">
+    <table class="table-secondary" width="90%" align="center">
         <tr>
             <!-- Creates two columns, one with an image, one with a text box -->
             <th><img src="Images/browseClothing.jpg" alt="Happy customer" height="300px" width="420px"></th>
             <!-- width="50%" means that this columns coveres 50% of the table's width -->
-            <th width="50%" class="rightAligned"><p>Om jag skriver en massa text här så ska vi testa en grej. Det här är en trevlig klädaffär, jag orkar inte skriva.</p></th>
+            <th width="50%"><p>Om jag skriver en massa text här så ska vi testa en grej. Det här är en trevlig klädaffär, jag orkar inte skriva.</p></th>
         </tr>
         <tr>
             <!-- Adds a javascript tag. To see what it does, see KläderTjäder.js -->
@@ -66,7 +66,7 @@
         <tr>
             <!-- Even more. In the text, there is an i-tag, macing the text italic -->
             <th><p>Tjäder (<i>Tetrao urogallus</i>) är en stor och tung hönsfågel som förekommer i öppna barrskogar i norra och mellersta Europa samt i delar av Asien. Tjädern föredrar skog som är över 90 år. De gillar också områden med tät växtlighet där de kan gömma sig. Tjädern är oftast tystlåten, men spelar under våren. Då kan lätena höras i upp till 150 meter.</p></th>
-            <th><img class="rightAligned" src="Images/tjäder.jpg" alt="Tjädrar i det vilda" height="300px" width="420px"></th>
+            <th><img src="Images/tjäder.jpg" alt="Tjädrar i det vilda" height="300px" width="420px"></th>
         </tr>
     </table>
 
