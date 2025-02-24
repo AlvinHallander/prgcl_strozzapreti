@@ -12,7 +12,7 @@ function visaRekommenderatPlagg() {
     const plagg = slumpaPlagg();
     htmlkod = "";
     htmlkod += "<tr>";
-    htmlkod += "<th><h2>Tjädern rekommenderar detta plagg just för dig:</h2></th>";
+    htmlkod += "<th><p>Tjädern rekommenderar detta plagg just för dig:</p></th>";
     htmlkod += "<td><img src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></td>";
     htmlkod += "</tr>";
     document.write(htmlkod);
