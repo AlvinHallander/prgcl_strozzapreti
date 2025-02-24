@@ -5,13 +5,14 @@
     <!-- Include css-file to style the page -->
     <link rel="stylesheet" type="text/css" href="KläderTjäder.css">
 
+    <!-- Include css-file to style the header -->
     <link rel="stylesheet" type="text/css" href="header.css">
-    <title>Strozzapreti Mall</title>
+    <!-- This will be displayed as the page's name -->
+    <title>Kläder tjäder - Strozzapreti Mall</title>
 
-
-    
 </head><body>
 
+    <!-- Header universal for the mall. Created by Alvin Will not be commented here -->
     <div class="header">
         <script type="text/javascript">
             function hover_on_header(button) {
@@ -31,48 +32,63 @@
             </tr>
         </table>
     </div>
-    <!-- Här lägger ni in er egna kod! -->
+    <!-- Here starts our own code -->
+    <!-- Creates a div, a part of the page, that has specific attributes in css-file -->
     <div class="topOfPage">
+        <!-- Creates a table that is centered at the page and coveres 80% of the page's width -->
         <table class="table-secondary" width="80%" align="center">
-            <tr> <!-- Vi behöver vara noga med att proportionerna av bilderna till höger och vänster är lika -->
+            <tr> <!-- Adds three columns to the table that all holds one image each. The middle image is slightly larger than the rest -->
 				<th><img src="Images/CLäderHoodie.png" alt="Tjäderns tjohoppsan" width="320px" height="320px"></th>
 				<th><img src="Images/logo.png" alt="Klädertjäder logga" width="450px" height="450px"> </th>
 				<th><img src="Images/CLäderTShirt.png" alt="Tjäderns mjölk" width="320px" height="320px"></th>
             </tr>
         </table>
+    <!-- Ends the topOfPage object -->
     </div>
+    <!-- Creates another table, this one covering 90% of page width. All information about classes can be found in KläderTjäder.css -->
     <table class="table-tertiary" width="90%" align="center">
         <tr>
+            <!-- Creates two columns, one with an image, one with a text box -->
             <th><img src="Images/browseClothing.jpg" alt="Happy customer" height="300px" width="420px"></th>
+            <!-- width="50%" means that this columns coveres 50% of the table's width -->
             <th width="50%" class="rightAligned"><p>Om jag skriver en massa text här så ska vi testa en grej. Det här är en trevlig klädaffär, jag orkar inte skriva.</p></th>
         </tr>
         <tr>
+            <!-- Adds a javascript tag. To see what it does, see KläderTjäder.js -->
             <script type='text/javascript' src='KläderTjäder.js'>
             </script>
         </tr>
         <tr>
+            <!-- More images and text -->
             <th><img src="Images/tjäderBoa.jpg" alt="Fjäderboa gjord på tjäderfjäder" height="300px" width="420px"></th>
             <th><p>Alla våra äkta kläder är gjorda av äkta fjädrar från äkta tjädrar. Det kan man speciellt känna i våran 100% äkta tjäder-fjäderboa, mysig och varm, för att inte tala om stilig</p></th>
         </tr>
         <tr>
+            <!-- Even more. In the text, there is an i-tag, macing the text italic -->
             <th><p>Tjäder (<i>Tetrao urogallus</i>) är en stor och tung hönsfågel som förekommer i öppna barrskogar i norra och mellersta Europa samt i delar av Asien. Tjädern föredrar skog som är över 90 år. De gillar också områden med tät växtlighet där de kan gömma sig. Tjädern är oftast tystlåten, men spelar under våren. Då kan lätena höras i upp till 150 meter.</p></th>
             <th><img class="rightAligned" src="Images/tjäder.jpg" alt="Tjädrar i det vilda" height="300px" width="420px"></th>
         </tr>
     </table>
 
+    <!-- Creates a footer division -->
     <div class="footer">
+        <!-- You should know our trustworthy tables by now -->
         <table width="90%" align="center">
             <tr>
+                <!-- Four columns, each taking up 25% of the table width -->
                 <th width="25%"> <h2>Mer info</h2> </th>
                 <th width="25%"> <h2>Kontakt</h2> </th>
                 <th width="25%"> <h2>Öppettider</h2></th>
                 <th width="25%"> <h2>Hitta hit</h2> </th>
             </tr>
             <tr>
+                     <!-- Adds a textbox with links to wikipedia pages. The text in between open- and close tags are displayed on the page -->
+                     <!-- pFoot class is used to style the text in the footer without affecting the rest of the page -->
                 <th> <p><a class="pFoot" href="https://sv.wikipedia.org/wiki/Kl%C3%A4der">Wikipedia för kläder</a></p> 
-                     <p><a class="pFoot" href="https://sv.wikipedia.org/wiki/Tj%C3%A4der">Wikipedia för tjäder</a></p> <p></p><p></p><p></p><p></p></th> <!--  behövs för att utöka varje kolumn med tomma paragrafer. Det gör så att saker är bättre förskjutna mot toppen än annars. De försöker flyttas till mitten av varje cell. Kartan förskjuter dem därför nedåt -->
+                     <p><a class="pFoot" href="https://sv.wikipedia.org/wiki/Tj%C3%A4der">Wikipedia för tjäder</a></p> <p></p><p></p><p></p><p></p></th> <!--  is used to extend each column with empty lines. Used because each cell in the table tries to center its' contents, and the map makes each cell higher than they should. The empty letters are used to center the text at the top -->
                 <th> <p class="pFoot"> jridal@kth.se </p> 
                      <p class="pFoot"> felund@kth.se </p>
+                     <!-- Phone number to Fröken Ur -->
                      <p class="pFoot"> tel. 90510 </p> <p></p><p></p><p></p></th>
                 <th> <p class="pFoot"> Måndag: 06:00 - 23:59 </p>
                      <p class="pFoot"> Tisdag: 06:00 - 23:59 </p>
@@ -82,14 +98,10 @@
                      <p class="pFoot"> Lördag: 06:00 - 23:59 </p>
                      <p class="pFoot"> Söndag: 06:00 - 23:59 </p>
                 </th>
-                <th> <iframe width="275" height="275" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=275&amp;height=275&amp;hl=en&amp;q=osquars%20backe%208%20Stockholm+(Gr%C3%A5ttan)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-website.com/de'>google maps integrieren</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f30952272c55ca6faee083f3e6e7ce8814d6d7bb'></script> </th>
-
-            </tr>
-            <tr><th></th><th></th>
+                <!-- Adds a google maps widget to the page with a pin on Osquars Backe 8 -->
+                <!-- The code was generated on a web page: https://maps-website.com/ -->
+                <th> <iframe width="275" height="275" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=275&amp;height=275&amp;hl=en&amp;q=osquars%20backe%208%20Stockholm+(Gr%C3%A5ttan)&amp;t=k&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='http://maps-website.com/de'>Integrate google maps (German)</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f30952272c55ca6faee083f3e6e7ce8814d6d7bb'></script> </th>
             </tr>
         </table>
     </div>
-
-
-
 </body></html>
