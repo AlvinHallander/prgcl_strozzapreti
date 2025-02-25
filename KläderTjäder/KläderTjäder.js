@@ -1,5 +1,5 @@
 //Lista över klädesplagg som kan rekommenderas
-const plagglista = ["Images/scarf.jpg", "Images/jeans.jpg", "Images/cowboyBoots.jpg","Images/skirt.jpg"];
+const plagglista = ["Images/scarf.jpg", "Images/jeans.jpg", "Images/cowboyBoots.jpg","Images/jorts.jpg", "Images/skirt.jpg","Images/hawaii.jpg", "Images/frozenshirt.jpg"];
 
 // Slumpa ett plagg 
 function slumpaPlagg() {
@@ -17,6 +17,5 @@ function visaRekommenderatPlagg() {
     htmlkod += "</tr>";
     document.write(htmlkod);
 }
-
 // Kör funktionen när sidan laddats
 window.onload = visaRekommenderatPlagg();
