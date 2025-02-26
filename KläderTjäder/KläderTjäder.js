@@ -13,7 +13,7 @@ function visaRekommenderatPlagg() {
     htmlkod = "";
     htmlkod += "<tr>";
     htmlkod += "<th><p>Tjädern rekommenderar detta plagg just för dig:</p></th>";
-    htmlkod += "<td><img src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></td>";
+    htmlkod += "<th><img src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></th>";
     htmlkod += "</tr>";
     document.write(htmlkod);
 }
