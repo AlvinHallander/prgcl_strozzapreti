@@ -12,8 +12,8 @@ function visaRekommenderatPlagg() {
     const plagg = slumpaPlagg();
     htmlkod = "";
     htmlkod += "<tr>";
-    htmlkod += "<th><p>Tjädern rekommenderar detta plagg just för dig:</p></th>";
-    htmlkod += "<th><img src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></th>";
+    htmlkod += "<th><p class=leftAligned>Tjädern rekommenderar detta plagg just för dig:</p></th>";
+    htmlkod += "<th><img class=leftAligned src='" + plagg + "' alt='rekommenderat plagg' height='300px' width='420px'></th>";
     htmlkod += "</tr>";
     document.write(htmlkod);
 }
