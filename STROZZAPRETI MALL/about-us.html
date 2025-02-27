@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <title>Strozzapreti Mall</title>
+    </head> 
+    <body>
+        <div class="site-header">
+            <script type="text/javascript">
+                function hover_on_header(button) {
+                    document.getElementById(button).data = "images/"+ document.getElementById(button).id + "-down.png"
+                }
+                function stop_hover_on_header(button) {
+                    document.getElementById(button).data = "images/"+ document.getElementById(button).id + ".png"
+                }
+                function go_to_page(page) {
+                    if (document.getElementById(page).id == "map") {
+                        document.getElementById(page).onmouseenter = window.location.assign("home.html")
+                    }
+                    else {
+                        document.getElementById(page).onmouseenter = window.location.assign(document.getElementById(page).id + ".html")
+                    }
+                }
+            </script>
+            <table class="table-primary">
+                <tr>
+                    <td width="70%"><object id="home" data="images/home.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="map" data="images/map.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="about-us" data="images/about-us.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="contact" data="images/contact.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                </tr>
+            </table>
+        </div>
+        <div style="font-family: Trebuchet MS; padding-left: 25;">
+            <h1 style="color: #f0ce52;">VÄLKOMMEN TILL STROZZAPRETI MALL</h1>
+            <p>Vi är ett nygrundat köpcentrum i den lilla staden Gråttasta. Vårt mål är att sälja produkter av bästa kvalitet till våra kunder.</p>
+            <p>sen lite mer cool text :></p>
+        </div>
+    </body>
+</html>
