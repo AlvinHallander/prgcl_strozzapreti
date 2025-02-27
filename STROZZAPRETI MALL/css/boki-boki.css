@@ -1,0 +1,220 @@
+main {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background: white;
+    font-size: 16px;
+}
+header {
+    background-color: #f9f7ee;
+    padding: 2rem 1rem;
+    text-align: center;
+    
+}
+section {
+    margin-bottom: 4rem;
+    scroll-margin-top: 8rem;
+  }
+  
+
+h1 {
+    text-align: center;
+    font-size: 45px; 
+
+}
+h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+.hero-section {
+    background-color: #f9f7ee;
+    padding: 2rem 10rem;
+    text-align: center;
+    border-top: 1px solid #ECE8D9;
+    margin-top: 5rem;
+}
+.hero-section p {
+    color: #5a5a5a;
+    font-size: 18px;
+}
+
+.promotions-section {
+    width:50%;
+    padding:10px;
+    margin: 4rem 0;
+}
+.promotion-details {
+    width:50%;
+    padding:10px;
+}
+.nav-links {
+    list-style-type: none;  
+    padding: 0;  
+    display: flex; 
+    justify-content: space-around;  
+    font-size: 20;
+}
+  
+.nav-links a {
+    text-decoration: none; 
+    color: #333; 
+    padding: 10px;  
+  }
+  
+.nav-links a:hover {
+    background-color: #f0f0f0;  
+  }
+.promotions-grid {
+    display: flex;
+    gap: 20px;
+    padding: o ;
+    text-align: center;
+  }
+  
+.promotion-card {
+    min-width: 390px;
+    max-width: 400px;
+    background: #f9f7ee;
+    padding: 25px;
+    border-left: 4px solid #ECE8D9; 
+  }
+  
+.promotion-card h3 {
+    color: #494949;
+  }
+  
+.highlight {
+    color: #CEAB93;
+    font-style: italic;
+  }
+.book-section {
+    padding: 1px;
+    background-color: #FAF6E9;
+  }
+  
+.book-section h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+.book-scroll-container {
+    overflow-x: scroll; 
+    padding-bottom: 5px;
+    
+  }
+  
+.book-scroll-wrapper {
+    display: flex;
+    gap: 40px;
+    padding: 9px;
+    
+  }
+  
+.book-card {
+    flex: 0 0 250px;
+    background: white;
+    padding: 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+  }
+  
+.book-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /* den fixar till bilden */
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+.book-card h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+.author {
+    color: #eadcc7;
+    font-size: 14px;
+    font-style: italic;
+  }
+
+.book-card h4 {
+    font-size: 16px;
+    font-family: cursive;
+
+  }
+  
+.book-scroll-container::-webkit-scrollbar {
+    height: 3px;
+  }
+  
+  
+.book-scroll-container::-webkit-scrollbar-thumb {
+    background: #8E806A;
+  }
+
+.contact-info {
+    background: #faf6e9;
+    padding: 2rem;
+    margin: 3rem auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contact-info h2 {
+    color: #494949;
+    font-size: 28px;
+    grid-column:  1 /-1;
+    
+}
+
+.contact-info h3 {
+    color: #6d6d6d;
+    font-size: 20px;
+    margin: 1.5rem 0 1rem;
+}
+
+.contact-info p {
+    color: #5a5a5a;
+    margin: 0.5rem 0;
+    font-size: 16px;
+}
+
+.map-container {
+  padding: 3rem;
+  margin-top: 4rem;
+}
+
+.map-container img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: #f9f7ee;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top: 2px solid #ECE8D9;
+    margin-top: 3rem;
+  }
+  
+  footer p {
+    color: #5a4d41;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .payment-logo {
+    height: 30px;
+    filter: grayscale(100%);  /*gör logan genomskinlig */
+  }
+  .payment-logo:hover {
+    filter: grayscale(0);
+    opacity: 1;
+  }

@@ -1,0 +1,15 @@
+.site-header {
+    background: #f0ce52;
+    padding: 0%;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    background: white;
+    font-size: 16px;
+}

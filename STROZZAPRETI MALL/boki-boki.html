@@ -1,0 +1,177 @@
+<html>
+  <head>
+      <link rel="stylesheet" type="text/css" href="css/boki-boki.css">
+      <link rel="stylesheet" type="text/css" href="css/header.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Strozzapreti Mall</title>
+  </head> 
+  <body>
+    <div class="site-header">
+      <script type="text/javascript">
+          function hover_on_header(button) {
+              document.getElementById(button).data = "images/"+ document.getElementById(button).id + "-down.png"
+          }
+          function stop_hover_on_header(button) {
+              document.getElementById(button).data = "images/"+ document.getElementById(button).id + ".png"
+          }
+          function go_to_page(page) {
+              if (document.getElementById(page).id == "map") {
+                  document.getElementById(page).onmouseenter = window.location.assign("home.html")
+              }
+              else {
+                  document.getElementById(page).onmouseenter = window.location.assign(document.getElementById(page).id + ".html")
+              }
+          }
+      </script>
+      <table class="table-primary">
+          <tr>
+              <td width="70%"><object id="home" data="images/home.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+              <td width="5%"><object id="map" data="images/map.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+              <td width="5%"><object id="about-us" data="images/about-us.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+              <td width="5%"><object id="contact" data="images/contact.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+          </tr>
+      </table>
+  </div>
+              <header>
+                <h1>Boki-Boki</h1>
+                <nav>
+                  <ul class="nav-links">
+                    <a href="#om-butik">Om Butik</a> 
+                    <a href="#aktuella-kampanjer">Kampanjer</a>  
+                    <a href="#månadens-val">Månadens val </a> 
+                    <a href="#kontaktuppgifter">Kontaktuppgifter</a>
+                  </ul>
+                </nav>
+              </header>
+              <main>
+                <main class="container main-content">
+                  <section id="about" class="hero-section">
+                    <h2 id="om-butik">Om Butik</h2>
+                    <p>Sedan 2025 har Boki-Boki varit en oas för bokälskare i hjärtat av staden. Vår passion för litteratur och önskan att skapa en plats där varje besök känns som en kram ligger i grunden för allt vi gör. Här möts tidlösa klassiker, spännande nyutgivningar och nischade pärlor – allt samlat under ett tak.</p>
+                    <p> Vår butik är mer än bara hyllor fyllda av böcker. Stig in genom dörrarna och upptäck ett rum där ljumma dofter av nybryggt kaffe blandas med det välbekanta ljudet av sidor som vänds. I våra myshörn med mjuka fåtöljer och varma filtar kan du sjunka ner med ett provkapitel eller bara njuta av stunden. Vi tror på att läsa ska vara en upplevelse för alla sinnen.</p>
+                    <p>Välkommen till Boki-Boki - din lokala bokhandel.</p>
+                    
+                    <!-- <button class="primary-button">Mer om oss</button> -->
+                  </section>
+
+                  <section id="promotions" class="promotions-section">
+                    <h2 id="aktuella-kampanjer">Aktuella Kampanjer</h2>
+                    <div class="promotions-grid">
+
+                      <!-- Kampanj 1 -->
+                      <div class="promotion-card">
+                        <h3>Köp 3 Betala för 2</h3>
+                        <p>På alla pocket böcker</p>
+                        <div class="promotion-details">
+                          <span class="highlight">Gäller t.o.m. 30 april</span>
+                        </div>
+                      </div>
+                  
+                      <!-- Kampanj 2 -->
+                      <div class="promotion-card">
+                        <h3>Barnböcker 149kr</h3>
+                        <p>Alla barnböcker i butiken</p>
+                        <div class="promotion-details">
+                          <span class="highlight">Gäller t.o.m. 15 april</span>
+                        </div>
+                      </div>
+                  
+                      <!-- Kampanj 3 -->
+                      <div class="promotion-card">
+                        <h3>20% Rabatt</h3>
+                        <p>På alla faktaböcker</p>
+                        <div class="promotion-details">
+                          <span class="highlight">Gäller t.o.m. 1 maj</span>
+                        </div>
+                      </div>
+                    </div>
+                  </section>  
+            
+                  <section class="book-section">
+                    <h2 id="månadens-val">Månadens böcker</h2>
+                    <div class="book-scroll-container">
+                      <div class="book-scroll-wrapper">
+                        <!-- Bok 1 -->
+                        <div class="book-card">
+                          <img src="images/bild-1.jpg" alt="Bok1">
+                          <h3>Milk and Honey</h3>
+                          <p class="author">Rupi Kaur</p>
+                          <h4>249 kr</h4>
+                        </div>
+                  
+                        <!-- Bok 2 -->
+                        <div class="book-card">
+                          <img src="images/bild-2.jpg" alt="Bok2">
+                          <h3>Goal Planner</h3>
+                          <p class="author">Ikigloo</p>
+                          <h4>199 kr</h4>
+                        </div>
+                  
+                        <!-- Bok 3 -->
+                        <div class="book-card">
+                          <img src="images/bild-3.jpg" alt="Bok3">
+                          <h3>Storytelling Workbook for Beginners</h3>
+                          <p class="author">B Rain Bennett</p>
+                          <h4>299 kr</h4>
+                        </div>
+                  
+                        <!-- Bok 4 -->
+                        <div class="book-card">
+                          <img src="images/bild-4.jpg" alt="Bok4">
+                          <h3>The First New Universe</h3>
+                          <p class="author">Heidi Priebe</p>
+                          <h4>179 kr</h4>
+                        </div>
+                  
+                        <!-- Bok 5 -->
+                        <div class="book-card">
+                          <img src="images/bild-5.jpg" alt="Bok4">
+                          <h3>Crazy Love</h3>
+                          <p class="author">Francis Chan</p>
+                          <h4>179 kr</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+            
+                  <section class="contact-info">
+                    <h2 id="kontaktuppgifter">Kontaktuppgifter och Öppettider</h2>
+                    
+                    <p><strong>Email:</strong> info@boki-boki.se</p>
+                    <p><strong>Telefon:</strong> 08-123 456 78</p>
+                    <p><strong>Adress:</strong> Strozzapreti Mall</p>
+                
+                    <div class="opening-hours">
+                        <h3>Öppettider</h3>
+                        <p><strong>Mån-Fre:</strong> 10:00 - 18:00</p>
+                        <p><strong>Lördag:</strong> 11:00 - 16:00</p>
+                        <p><strong>Söndag:</strong> Stängt</p>
+                    </div>
+                
+                    <div class="entrances-section">
+                        <p><strong>Boki-Boki</strong></p>
+                        <p><strong>PLAN 1</strong></p>
+
+                    </div>
+                
+                    <div class="map-container">
+                        <img src="" alt="Karta över läge"> <!-- Här ska vara en bild på kartan till mall-->
+                    </div>
+                </section>
+              </main>
+            
+              <footer>
+                <p>Boki-Boki - Din lokala bokhandel sedan 2025</p>
+                <div class="payment-methods">
+                  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR_FrTaaaGEk9eULQpb355SxtAFizG5jleBqp_1q8j2dgMxqfHT" alt="Klarna" class="payment-logo">
+                  <img src="https://www.swedbank.com/content/dam/global/brand/logotypes/8999-swedbank-logo-default.svg" alt="Swedbank" class="payment-logo">
+                  <img src="https://uic.se/wp-content/uploads/2022/09/Nordea_Masterbrand_500px_RGB.png" alt="Nordea" class="payment-logo">
+                  <img src="https://sebgroup.com/siteassets/sebgroup.com/press-and-news/seb_k_45mm150dpi.jpg" alt="SEB" class="payment-logo">
+                  <img src="https://cdn.abicart.com/shop/ws89/120689/art89/h6087/191416087-origpic-7fe890.png" alt="Swish" class="payment-logo">
+                </div>
+              </div>
+              </footer>
+      </div>
+  </body>
+</html>

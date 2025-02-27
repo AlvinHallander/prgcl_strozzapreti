@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
+        <title>Strozzapreti Mall</title>
+    </head> 
+    <body>
+        <div class="site-header">
+            <script type="text/javascript">
+                function hover_on_header(button) {
+                    document.getElementById(button).data = "images/"+ document.getElementById(button).id + "-down.png"
+                }
+                function stop_hover_on_header(button) {
+                    document.getElementById(button).data = "images/"+ document.getElementById(button).id + ".png"
+                }
+                function go_to_page(page) {
+                    if (document.getElementById(page).id == "map") {
+                        document.getElementById(page).onmouseenter = window.location.assign("home.html")
+                    }
+                    else {
+                        document.getElementById(page).onmouseenter = window.location.assign(document.getElementById(page).id + ".html")
+                    }
+                }
+            </script>
+            <table class="table-primary">
+                <tr>
+                    <td width="70%"><object id="home" data="images/home.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="map" data="images/map.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="about-us" data="images/about-us.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                    <td width="5%"><object id="contact" data="images/contact.png" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id) onclick=go_to_page(id)></td>
+                </tr>
+            </table>
+        </div>
+        <div style="display: grid; grid-template-columns: [first-col] 100%; grid-template-rows: [first-row] 300px; position: absolute; top: 100px; left: 100px">
+            <img src="svg_elements/background.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/book-store.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/clothes-store.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/toy_store.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/cafe.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/electronics.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600" >
+            <img src="svg_elements/toilets.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/untitled1.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">
+            <img src="svg_elements/untitled2.svg" style="grid-column-start: first-col; grid-row-start: first-row; width: 600">            
+            <object id="klader-tjader" data="images/klader-tjader.png" width="100" style="position: relative; top: -190; left: 35;" onmousedown=go_to_page(id)></object>
+            <object id="boki-boki" data="images/boki-boki.png" width="100" style="position: relative; top: -110; left: 35;" onmousedown=go_to_page(id)></object>
+            <object id="fikatron-8000" data="images/fikatron-8000.png" width="100" style="position: relative; top: -380; left: 197;" onmousedown=go_to_page(id)></object>
+            <object id="gem-elektronik" data="images/gem_elektronik.png" width="150" style="position: relative; top: -440; left: 430;" onmousedown=go_to_page(id)></object>
+            <object id="fantasy-lekland" data="images/fantasy-lekland.png" width="150" style="position: relative; top: -290; left: 430;" onmousedown=go_to_page(id)></object>
+            <object data="images/WC.png" width="60" style="position: relative; top: -620; left: 326;"></object>
+            <object data="images/info.png" width="60" style="position: relative; top: -550; left: 300;"></object>
+        </div>
+    </body>
+</html>
+
+

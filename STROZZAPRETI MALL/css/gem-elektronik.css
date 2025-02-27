@@ -1,0 +1,38 @@
+body 
+{
+    background-color: #f5e08e;
+    padding:0cm;
+    font-family:"OCR A Std", monospace; 
+}
+
+h1
+{
+color:#520000;
+text-align: center;
+padding: 0.5cm;
+font-family:"OCR A Std", monospace;
+}
+
+h3
+{
+color:#520000;
+text-align: center;
+padding: 0.5cm;
+font-family: "OCR A Std", monospace;
+}
+
+ul, p, h4
+{
+font-family: "Avantgarde", TeX Gyre Adventor, URW Gothic L, sans-serif;
+color:#520000;
+text-align: left;
+padding-left: 0.5cm;
+}
+
+a
+{
+color:#520000;
+font-family: "American Typewriter";
+padding-left: 0.5cm;
+}
+
