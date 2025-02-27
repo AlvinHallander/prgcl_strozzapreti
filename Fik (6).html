@@ -3,36 +3,30 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Strozzapreti Mall</title>
-</head>
-
-<body>
-    <div class="header">
-        <script type="text/javascript">
-            function hover_on_header(button) {
-                document.getElementById(button).data = "svg_elements/" + document.getElementById(button).id + "-down.svg"
-            }
-            function stop_hover_on_header(button) {
-                document.getElementById(button).data = "svg_elements/" + document.getElementById(button).id + ".svg"
-            }
-        </script>
-        <table>
-            <tr>
-                <td width="70%"><object id="home-button" data="svg_elements/home-button.svg" height="60"
-                        onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
-                <td width="5%"><object id="map-button" data="svg_elements/map-button.svg" height="60"
-                        onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
-                <td width="5%"><object id="stores-button" data="svg_elements/stores-button.svg" height="60"
-                        onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
-                <td width="5%"><object id="about-us-button" data="svg_elements/about-us-button.svg" height="60"
-                        onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
-                <td width="5%"><object id="contact-button" data="svg_elements/contact-button.svg" height="60"
-                        onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
-            </tr>
-        </table>
-    </div>
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Strozzapreti Mall</title>
+    </head> 
+    <body>
+        <div class="header">
+            <script type="text/javascript">
+                function hover_on_header(button) {
+                    document.getElementById(button).data = "svg_elements/"+ document.getElementById(button).id + "-down.svg"
+                }
+                function stop_hover_on_header(button) {
+                    document.getElementById(button).data = "svg_elements/"+ document.getElementById(button).id + ".svg"
+                }
+            </script>
+            <table>
+                <tr>
+                    <td width="70%"><object id="home-button" data="svg_elements/home-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                    <td width="5%"><object id="map-button" data="svg_elements/map-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                    <td width="5%"><object id="stores-button" data="svg_elements/stores-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                    <td width="5%"><object id="about-us-button" data="svg_elements/about-us-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                    <td width="5%"><object id="contact-button" data="svg_elements/contact-button.svg" height="60" onmouseenter=hover_on_header(id) onmouseleave=stop_hover_on_header(id)></td>
+                </tr>
+            </table>
+        </div>
 
     <header class="main-header">
         <h1>
@@ -40,11 +34,11 @@
         </h1>
     </header>
     <section class="menu">
-        <h2>Vår meny</h2>
+        <h2>VÅR MENY</h2>
 
         <!-- Dryck -->
         <div class="menu-category">
-            <h3>Dryck</h3>
+            <h3>DRYCK</h3>
             <table>
                 <tr>
                     <th>Matcha latte</th>
@@ -99,7 +93,7 @@
     <section>
         <div class="stycke1">
             <hr>
-            <img src="kaffekvinnan.jpg" alt="kaffekvinnan" width="600px" align="right">
+            
             <h2>VAD ÄR KAFFE FÖR OSS?</h2>
             
             <p>Kaffe är inte bara en dryck som avnjuts i gott sällskap, det är även ett tryck som förskjuts i rått räntegap.
@@ -140,6 +134,24 @@
                 placerat, pulvinar dui. Duis tristique, dui consequat dignissim dictum, tellus ex tristique felis, tincidunt
                 luctus est ipsum a nunc.</p>
         </div>
+
+        <div class="stycke3">
+            <hr>
+            <h3>KONTAKTA OSS</h3>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" title="Instagram">
+                <img src="instagram-ikon.jpg" alt="Instagram" width="40" height="40">
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" title="Facebook">
+                <img src="facebook-ikon.jpg" alt="Facebook" width="40" height="40">
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" title="YouTube">
+                <img src="youtube-ikon.png" alt="YouTube" width="40" height="40">
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" title="TikTok">
+                <img src="tiktok-ikon.jpg" alt="TikTok" width="40" height="40">
+            </a>
+
+        </div>
         
 
 
@@ -150,7 +162,7 @@
 
 
 
-    <!-- Här lägger ni in er egna kod! -->
+
 </body>
 
 </html>
